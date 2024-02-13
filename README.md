@@ -53,6 +53,23 @@ El proyecto se estructurará en varios módulos, cada uno con funciones específ
 - Python procesa y analiza datos, presentando resultados al usuario.
 - Usuario interactúa con la interfaz para ajustar parámetros del controlador según sea necesario.
 
+### Tabla de Especificaciones y Estado
+
+| Módulo | Especificación | Estado |
+| ------ | -------------- | ------ |
+| Módulo de Adquisición de Datos | Lee datos de sensores | ✅/❌ (requiere revisar en lab, se hizo un mock) |
+|                                  | Implementa filtro digital | ✅ |
+|                                  | Almacena datos en caché | ✅ |
+| Módulo de Procesamiento de Datos | Calcula respuesta del sistema | ❌ |
+|                                     | Permite ingreso de parámetros PID | ❌ |
+|                                     | Visualiza gráficos de datos | ❌ |
+| Módulo de Evaluación del Controlador | Evalúa rendimiento del controlador | ❌ |
+|                                            | Cataloga rendimiento del controlador autoajustado | ❌ |
+| Interfaz Gráfica de Usuario | Muestra datos en tiempo real | ❌ |
+|                                    | Permite ingreso de parámetros | ❌ |
+|                                    | Visualiza gráficos de respuesta | ❌ |
+
+
 ### Consideraciones
 
 - La arquitectura del software debe ser modular y escalable para incorporar nuevas funcionalidades.
