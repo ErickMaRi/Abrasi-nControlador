@@ -1,6 +1,6 @@
 # Optimización del Control de Temperatura en Máquina de Sellado
 
-![Máquina de Sellado](images/machine.jpg)
+![Máquina de Sellado](images/machine.png)
 
 ## Descripción del Proyecto
 
